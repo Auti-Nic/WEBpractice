@@ -1,0 +1,102 @@
+.row{
+    margin: 15px 20px;
+}
+
+p{
+    margin: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#hertz{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Courier, Arial, Helvetica;
+    display: inline;
+    padding-left: 25px;
+}
+
+#btn-cart{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
+.btn{
+    margin-top: 5px;
+    margin-left: 20px;
+    position: relative;
+    float: right;
+}
+
+.title{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+#rentalTitle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Courier, Arial, Helvetica;
+    padding-top: 5px;
+}
+
+.cardBody:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.small{
+    height: 100px;
+}
+
+table{
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    height: 100px;
+    line-height: 100px;
+}
+
+.days{
+    text-align: center;
+    height: 25px;
+    width: 6em;
+}
+
+.del{
+    float: none;
+}
+
+#customer_form{
+
+    margin-top: 25px;
+    position: relative;
+    align-self: center;
+    background-color: grey;
+}
+
+form div{
+    width: 60%;
+    left: 20%;
+    position: relative;
+    align-self: center;
+}
+
+form h3{
+    text-align: center;
+    margin-top: 25px;
+}
+
+select:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Car Rental Center</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+
+        <div class="title" id="rentalTitle">
+            <p>Car Rental Center</p>
+        </div>
+
+        <div>
+            <table class="table" id="cart">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Thumbnail</th>
+                    <th scope="col">Vehicle</th>
+                    <th scope="col">Price Per Day</th>
+                    <th scope="col">Rental Days</th>
+                    <th scope="col">Action</th>
+                </tr>
+                </thead>
+                <tbody id="cartList">
+
+                </tbody>
+            </table>
+
+            <a  href="customerInfo.php?amount=" class="btn btn-primary" id="btn-cart" >Checkout</a>
+
+        </div>
+
+
+        <script
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="scripts/supportiveFunc.js"></script>
+        <script type="text/javascript" src="scripts/rentalCenter.js"></script>
+
+        <script>
+
+            if(!jQuery){
+                alert("jQuery is not available.")
+            }
+
+            window.onload = function () {
+                displayCart();
+                delCar();
+                checkDays();
+                checkout();
+            }
+
+        </script>
+
+    </body>
+</html>
